@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoulezZen</title>
+    <link rel="shortcut icon" href="./Logo head.png" type="image/x-icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo"><img src="Logo site.png" alt="logo du site" /></div>
+      <ul class="menu">
+        <a href="#accueil">Accueil</a>
+        <a href="#Pourquoi choisir RoulezZen ?">A propos</a>
+        <a href="#modeles" class="nos-modeles">Nos modèles</a> 
+        <a href="#contacts">Contacts</a>
+      </ul>
+      <div>
+        <a href="#contacts" class="reservation">Réserver maintenant</a>
+      </div>
+    </header>
+
+    <!-- Accueil -->
+    <section class="accueil" id="accueil">
+      <div class="hero">
+        <h1>Déplacez vous dans la voiture qui vous convient avec RoulezZen</h1>
+        <p>Votre partenaire de location de véhicules de confiance!</p>
+        <a href="">Découvrez nos modèles</a>
+      </div>
+      <video src="./BG.mp4" class="background-video" AUTOPLAY muted loop></video>
+    </section>
+
+
+    <!-- Pourquoi choisir RoulezZen ? -->
+    <section
+      id="Pourquoi choisir RoulezZen ?"
+      class="pourquoi-choisir-roulezzen"
+    >
+    <h2>Pourquoi choisir <span>RoulezZen</span> ?</h2>
+      <p class="subtitle">
+        Nos engagements pour une expérience de location unique
+      </p>
+      <div class="container">
+        <div class="item 1">
+          <div class="icon">
+            <i class="fas fa-car"></i>
+          </div>
+          <h3>Large choix de véhicules</h3>
+          <p>Des citadines économiques aux voitures de luxe, trouvez le véhicule qui correspond à vos besoins.</p>
+        </div>
+
+        <div class="item 2">
+          <div class="icon">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <h3>Prix compétitifs et transparents</h3>
+          <p>Pas de frais cachés, seulement des offres claires et abordables.</p>
+        </div>
+
+        <div class="item 3">
+          <div class="icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Entretien de qualité</h3>
+          <p>Tous nos véhicules sont régulièrement inspectés pour garantir votre sécurité.</p>
+        </div>
+
+        <div class="item 4">
+          <div class="icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Service client dédié 24/7</h3>
+          <p>Notre équipe est disponible à tout moment pour répondre à vos questions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nos modèles -->
+    <section id="modeles" class="section-modeles">
+      <h2>Découvrez nos véhicules disponibles</h2>
+      <p class="subtitle">Que ce soit pour un voyage d'affaires ou des vacances, nous avons le modèle de véhicule qu'il vous faut.</p>
+      <div class="container">
+        <div class="modele">
+          <img src="./Berline.jpg" alt="Berline élégante">
+          <h3>Citadines et berlines</h3>
+          <p>Vous cherchez une voiture confortable et élégante pour vos déplacements en ville ? RoulezZen vous propose de belles citadines et berlines. </p>
+          <ul>
+            <li>4 sièges</li>
+            <li>GPS intégré</li>
+            <li>Manuelle</li>
+          </ul>
+          <p class="prix">A partir de 25000FCFA/jour</p>
+          <a href="#contacts" class="btn-modele">Réserver</a>
+        </div>
+        <div class="modele">
+          <img src="./SUV.jpg" alt="SUV confortable">
+          <h3>SUV et 4x4</h3>
+          <p>Vous organisez une aventure en famille ou entre amis ? Optez pour nos SUV ou 4x4 qui sont idéaux pour les longs trajets et disposent d'un grand espace de rangement.</p>
+          <ul>
+            <li>Climatisation</li>
+            <li>5 sièges</li>
+            <li>Automatique</li>
+          </ul>
+          <p class="prix">A partir de 35000FCFA/jour</p>
+          <a href="#contacts" class="btn-modele">Réserver</a>
+        </div>
+        <div class="modele">
+          <img src="./Voiture de sport.jpg" alt="Voiture de sport">
+          <h3>Voitures de sport</h3>
+          <p>Amateurs de vitesse et de sensations fortes, RoulezZen a également pensé à vous dans ses offres.</p>
+          <ul>
+            <li>2 sièges</li>
+            <li>Moteur V8</li>
+            <li>Automatique</li>
+          </ul>
+          <p class="prix">A partir de 50000FCFA/jour</p>
+          <a href="#contacts" class="btn-modele">Réserver</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+     <section id="contacts" class="contacts">
+      <h2 class="title">Contactez-nous</h2>
+      <p class="subtitle">Pour tous vos besoins de location ou vos questions, n'hésitez pas à nous contacter. Nous sommes disponibles h24.</p>
+      <div class="contact">
+        <form action="" class="formulaire">
+          <div class="input">
+            <label for="nom">Entrez votre nom :</label>
+            <input type="text" name="Nom" placeholder="Votre nom s'il vous plaît">
+            <label for="Email">Entrez votre email :</label>
+            <input type="email" name="Email" placeholder="Votre adresse email valide s'il vous plaît">
+            <label for="Message">Entrez votre message :</label>
+            <textarea name="Message" placeholder="Votre message s'il vous plaît" cols="90" rows="10"></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+     </section>
+
+    <footer>
+      <div class="top">
+        <div class="localisation">
+          <h4>RoulezZen</h4>
+          <p><i class="fas fa-map-marker-alt"></i> <span>Abomey-Calavi, Bakhita, Bénin</span></p>
+          <p><i class="fas fa-phone"></i><span>+229 01 61 386 445</span></p>
+          <p><i class="fas fa-envelope"></i><span>roulezzen@gmail.com</span></p>
+        </div>
+        <div class="reseaux">
+          <h4>Suivez-nous</h4>
+          <ul>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          </ul>
+        </div>
+      </div>
+      <p class="droits">&copy; 2025 <span>RoulezZen</span>. Tous droits réservés.</p>
+    </footer>
+  
+  </body>
+</html>
